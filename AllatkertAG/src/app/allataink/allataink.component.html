@@ -1,1 +1,36 @@
-<p>allataink works!</p>
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-12 mb-3">
+            <h1>Állatkertünk jelenlegi lakói</h1>
+        </div>
+    </div>
+    <table mat-table [dataSource]="allataink" class="mat-elevation-z8">
+        
+        <ng-container matColumnDef="nev">
+            <th mat-header-cell *matHeaderCellDef> Állat neve </th>
+            <td mat-cell *matCellDef="let allat"> {{allat.nev}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="faj">
+            <th mat-header-cell *matHeaderCellDef> Faj </th>
+            <td mat-cell *matCellDef="let allat"> {{allat.faj}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="gondozo">
+            <th mat-header-cell *matHeaderCellDef> Gondozója </th>
+            <td mat-cell *matCellDef="let allat"> {{allat.gondozo}} </td>
+        </ng-container>
+        <ng-container matColumnDef="helye">
+            <th mat-header-cell *matHeaderCellDef> Helye az állatkertben </th>
+            <td mat-cell *matCellDef="let allat"> {{allat.helye}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="erkezes">
+            <th mat-header-cell *matHeaderCellDef> Érkezése </th>
+            <td mat-cell *matCellDef="let allat"> {{allat.erkezes}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="allatainkOszlopok"></tr>
+        <tr mat-row *matRowDef="let row; columns: allatainkOszlopok;"></tr>
+    </table>
+</div>
