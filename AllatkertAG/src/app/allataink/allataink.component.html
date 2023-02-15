@@ -33,4 +33,8 @@
         <tr mat-header-row *matHeaderRowDef="allatainkOszlopok"></tr>
         <tr mat-row *matRowDef="let row; columns: allatainkOszlopok;"></tr>
     </table>
+    <div class="alert alert-danger alert-dismissible" role="alert" *ngIf="hibauzenet!=''">
+        <strong>{{hibauzenet}}</strong>
+        <button type="button" class="btn-close" (click)="hibauzenet=''"></button>
+    </div>
 </div>
