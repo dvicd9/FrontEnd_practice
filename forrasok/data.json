@@ -1,0 +1,106 @@
+{"allatok":[
+ { "nev": "Ragyás",
+   "faj": "Nílusi krokodil",
+   "erkezes": "2019-05-16",
+   "helye": "Krokodilház",
+   "gondozo": "Ács Miklós"
+ },
+ { "nev": "Joe",
+   "faj": "Madagaszkári krokodil",
+   "erkezes": "2019-05-20",
+   "helye": "Krokodilház",
+   "gondozo": "Kukorica János"
+ },
+ { "nev": "Cili",
+   "faj": "Jegesmedve",
+   "erkezes": "2020-01-07",
+   "helye": "Kisszikla",
+   "gondozo": "Árpád Előd"
+ },
+ { "nev": "Domi",
+   "faj": "Jegesmedve",
+   "erkezes": "2020-01-03",
+   "helye": "Kisszikla",
+   "gondozo": "Árpád Előd"
+ },
+ { "nev": "Gáspár",
+   "faj": "Házi kecske",
+   "erkezes": "2019-01-16",
+   "helye": "Kecskesimogató",
+   "gondozo": "Gáspár Dénes"
+ },
+ { "nev": "Gyuri",
+   "faj": "Gyűrűsfarkú maki",
+   "erkezes": "2018-04-04",
+   "helye": "Madagaszkár-kaland",
+   "gondozo": "Szalontai Győző"
+ },
+ { "nev": "Merci",
+   "faj": "Gyűrűsfarkú maki",
+   "erkezes": "2015-04-06",
+   "helye": "Madagaszkár-kaland",
+   "gondozo": "Szalontai Győző"
+ },
+ { "nev": "Vili",
+   "faj": "Vari",
+   "erkezes": "2015-04-06",
+   "helye": "Madagaszkár-kaland",
+   "gondozo": "Szalontai Győző"
+ },
+ { "nev": "Bíbor",
+   "faj": "Baba-kutu",
+   "erkezes": "2018-04-09",
+   "helye": "Madagaszkár-kaland",
+   "gondozo": "Szalontai Győző"
+ },
+ { "nev": "Csíkos",
+   "faj": "Zebra",
+   "erkezes": "2018-04-11",
+   "helye": "Szavannaház",
+   "gondozo": "Rácz Éva"
+ },
+ { "nev": "Foltos",
+   "faj": "Zsiráf",
+   "erkezes": "2018-04-13",
+   "helye": "Szavannaház",
+   "gondozo": "Orsós Gergely"
+ },
+ { "nev": "Rugóláb",
+   "faj": "Kenguru",
+   "erkezes": "2020-01-12",
+   "helye": "Ausztrál-ösvény",
+   "gondozo": "Kis Katalin"
+ },
+ { "nev": "Dumber",
+   "faj": "Indiai elefánt",
+   "erkezes": "2020-01-13",
+   "helye": "Elefántház",
+   "gondozo": "Hámori József"
+ },
+ { "nev": "Bálint",
+   "faj": "Indiai elefánt",
+   "erkezes": "1999-02-14",
+   "helye": "Elefántház",
+   "gondozo": "Hámori József"
+ },
+ { "nev": "Juci",
+   "faj": "Afrikai elefánt",
+   "erkezes": "2002-02-02",
+   "helye": "Afrika sétány",
+   "gondozo": "Kis Katalin"
+ }
+],
+"gondozok":[
+    {"nev": "Ács Miklós"},
+    {"nev": "Kukorica János"},
+    {"nev": "Árpád Előd"},
+    {"nev": "Gáspár Dénes"},
+    {"nev": "Szalontai Győző"},
+    {"nev": "Rácz Éva"},
+    {"nev": "Orsós Gergely"},
+    {"nev": "Kis Katalin"},
+    {"nev": "Hámori József"},
+    {"nev": "Rendes Géza"}, 
+    {"nev": "Vörös Ildikó"}
+    ]
+}
